@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MCP QE Helper</title>
+  <style>
+    body { background: #232323; color: #ccc; font: 12px system-ui, sans-serif; margin: 8px; }
+    #status { font-weight: 600; margin-bottom: 6px; }
+    .on { color: #6c6; } .off { color: #d66; } .wait { color: #db6; }
+    input { width: 60px; background: #111; color: #ccc; border: 1px solid #444; }
+    #log { margin-top: 8px; height: 140px; overflow: auto; font: 11px monospace; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <div id="status" class="wait">Starting...</div>
+  <label>Port <input id="port" value="8765"></label>
+  <label>Token <input id="token" type="password"></label>
+  <button id="connect">Reconnect</button>
+  <div id="log"></div>
+  <script src="main.js"></script>
+</body>
+</html>

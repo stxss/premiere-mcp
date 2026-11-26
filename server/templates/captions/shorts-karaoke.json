@@ -1,0 +1,13 @@
+{
+  "name": "shorts-karaoke",
+  "description": "Shorts: 4-6 words per caption in sentence case, active word highlighted green, lower third.",
+  "maxCharsPerLine": 22,
+  "maxLines": 2,
+  "maxWordsPerCaption": 6,
+  "minDuration": 0.5,
+  "maxDuration": 3,
+  "maxGap": 0.45,
+  "removeFillers": true,
+  "highlightActiveWord": true,
+  "style": { "font": "Arial", "fontSize": 80, "bold": true, "primaryColor": "#FFFFFF", "highlightColor": "#3DFF7A", "outlineColor": "#000000", "outline": 6, "shadow": 0, "alignment": 2, "marginV": 420, "marginH": 90, "playResX": 1080, "playResY": 1920 }
+}

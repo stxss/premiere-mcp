@@ -1,0 +1,10 @@
+{
+  "name": "youtube-standard",
+  "description": "Classic two-line subtitles for long-form YouTube (SRT upload or burn-in). 42 chars per line, sentence-aware.",
+  "maxCharsPerLine": 42,
+  "maxLines": 2,
+  "minDuration": 1.0,
+  "maxDuration": 6,
+  "maxGap": 0.8,
+  "style": { "font": "Arial", "fontSize": 52, "bold": true, "outline": 3, "alignment": 2, "marginV": 70, "playResX": 1920, "playResY": 1080 }
+}

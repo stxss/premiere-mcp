@@ -1,0 +1,24 @@
+{
+  "name": "premiere-pro-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Adobe Premiere Pro (UXP) with local Whisper transcription, captions and shorts tools",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/run-tests.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "hyperframes": "^0.8.214",
+    "ws": "^8.22.1",
+    "zod": "^4.6.7"
+  },
+  "type": "module",
+  "bin": {
+    "premiere-pro-mcp": "src/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

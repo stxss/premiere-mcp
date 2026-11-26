@@ -1,0 +1,11 @@
+{
+  "name": "youtube-single-line",
+  "description": "One short line at a time, easier to read on mobile. Good for talking-head videos.",
+  "maxCharsPerLine": 32,
+  "maxLines": 1,
+  "minDuration": 0.7,
+  "maxDuration": 4,
+  "maxGap": 0.5,
+  "removeFillers": true,
+  "style": { "font": "Arial", "fontSize": 56, "bold": true, "outline": 4, "alignment": 2, "marginV": 80, "playResX": 1920, "playResY": 1080 }
+}

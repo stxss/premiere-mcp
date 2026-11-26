@@ -1,0 +1,16 @@
+{
+  "name": "shorts-punchy",
+  "description": "Shorts/Reels/TikTok: 1-3 words, UPPERCASE, big bold text near the centre with the spoken word highlighted in yellow. Use ASS for burn-in.",
+  "maxCharsPerLine": 16,
+  "maxLines": 2,
+  "maxWordsPerCaption": 3,
+  "minDuration": 0.3,
+  "maxDuration": 2,
+  "maxGap": 0.35,
+  "splitOnSentenceEnd": true,
+  "case": "upper",
+  "stripPunctuation": true,
+  "removeFillers": true,
+  "highlightActiveWord": true,
+  "style": { "font": "Arial Black", "fontSize": 96, "bold": true, "primaryColor": "#FFFFFF", "highlightColor": "#FFE11F", "outlineColor": "#000000", "outline": 7, "shadow": 2, "alignment": 2, "marginV": 620, "marginH": 80, "playResX": 1080, "playResY": 1920 }
+}
