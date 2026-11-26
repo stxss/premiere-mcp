@@ -189,3 +189,9 @@ Restart Premiere; open Window > Extensions (Legacy) > MCP QE Helper once if it d
 
 Every copy of the MCP server must run this version before the helper connects: an older server treats any
 non-relay hello as the UXP panel, so the helper would kick the UXP panel off.
+
+## Publishing without your private history
+
+`python scripts/publish.py "what changed"` pushes the current files as one new commit to a separate remote (default `github`)
+and refuses if a file is local-only, looks like a secret, or matches your gitignored `publish-blocklist.txt`.
+`python scripts/publish.py --help` has the one-time setup.
